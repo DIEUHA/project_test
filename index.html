@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            background-image: url(bg_header.jpg);
+        }
+
+        .nav {
+            margin-top: 20px;
+            width: 80%;
+            background-color: red;
+            display: flex;
+        }
+
+        .logo {
+            width: 30%;
+            text-align: center;
+        }
+
+        .menu {
+            width: 70%;
+        }
+
+        .menu ul {
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .menu ul li {
+            list-style: none;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+        }
+
+        .contain {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        h1 {
+            font-size: 80px;
+            color: white;
+        }
+
+        h1 span {
+            color: red;
+        }
+
+        p {
+            color: white;
+            font-size: 20px;
+        }
+
+        button {
+            width: 180px;
+            height: 50px;
+            background-color: red;
+            font-size: 15px;
+            color: white;
+            border: none;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="nav">
+
+            <div class="logo">
+                <a href="#"><img src="logo.png" alt="logo" width="60%"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blog/News</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contain">
+            <h1>Think Big. <span>We do.</span></h1>
+            <p>Capitalise on low hanging fruit to identify a ballpark </p>
+            <button>Our porfolio</button>
+        </div>
+    </header>
+
+</body>
+
+</html>
